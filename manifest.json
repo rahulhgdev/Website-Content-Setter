@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name" : "Website Content Setter",
+  "version" : "0.2",
+  "description" : "Shows the content settings for the current site and set it according to your need.",
+  "permissions": [ "contentSettings", "tabs" ],
+  "icons":{
+		"128":"images/contentSettings.png",
+		"48":"images/contentSettings.png",
+    "16":"images/contentSettings.png"
+  },
+  "browser_action": {
+     "default_icon": "images/contentSettings.png",
+     "default_popup": "popup.html"
+  }
+ 
+}
